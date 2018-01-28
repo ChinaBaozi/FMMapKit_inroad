@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "FMMapkit"
-s.version      = "2.0.42"
+s.version      = "2.0.5"
 s.summary      = "FMMapkit"
 s.description  = <<-DESC
 FMMapkit,thank for you use it.
@@ -14,7 +14,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "ChinaBaozi" => "chinabaozi@yeah.net" }
 s.platform     = :ios
 
-s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", :tag => "2.0.42" }
+s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", :tag => "2.0.5" }
 s.source_files   = "Classes", "YPTreeView/Classes/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 s.public_header_files = "Classes/FMMapKit.h"
