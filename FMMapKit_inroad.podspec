@@ -19,7 +19,7 @@ s.source_files   = "Classes", "YPTreeView/Classes/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 s.public_header_files = "Classes/FMMapKit.h"
 
-s.frameworks = 'GLKit', 'CoreGraphice','OpenGLES','Security'
+s.frameworks = 'GLKit', 'CoreGraphics','OpenGLES','Security'
 
 s.libraries = 'z'
 s.vendored_libraries = 'Classes/libFMMapKit.a'
