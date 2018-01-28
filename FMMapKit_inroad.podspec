@@ -23,9 +23,9 @@ s.frameworks = 'GLKit', 'CoreGraphics','OpenGLES','Security'
 
 s.libraries = 'z'
 s.vendored_libraries = 'Classes/libFMMapKit.a'
-s.pod_target_xcconfig  =   {'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x'}
-s.pod_target_xcconfig  =   {'CLANG_CXX_LIBRARY' => 'libstdc++'}
+s.pod_target_xcconfig  =   {'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x','CLANG_CXX_LIBRARY' => 'libstdc++'}
 
+#s.pod_target_xcconfig  =   {'CLANG_CXX_LIBRARY' => 'libstdc++'}
 #CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 #CLANG_CXX_LIBRARY = "libstdc++";
 s.resource     = "Classes/Resources/FMBundle.bundle"
