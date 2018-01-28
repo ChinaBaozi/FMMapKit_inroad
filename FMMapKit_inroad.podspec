@@ -15,11 +15,14 @@ s.author             = { "ChinaBaozi" => "chinabaozi@yeah.net" }
 s.platform     = :ios
 
 s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", :tag => "2.0.42" }
-s.source_files   = "Classes", "YPTreeView/Classes/*.{h,m,a}"
+s.source_files   = "Classes", "YPTreeView/Classes/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 s.public_header_files = "Classes/FMMapKit.h"
 
-s.frameworks = 'GLKit', 'CoreGraphice','OpenGLES','Security','Libz.1'
+s.frameworks = 'GLKit', 'CoreGraphice','OpenGLES','Security'
+
+s.libraries = 'z'
+s.vendored_libraries = 'Classes/libFMMapKit.a'
 
 s.resource     = "Classes/Resources/FMBundle.bundle"
 s.requires_arc = true
