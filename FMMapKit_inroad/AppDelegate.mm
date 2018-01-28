@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FMMapKit.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[FMKMapSDK shareSDK] setKey:@"3adc0411995375bac9afe81856feadf4"];
+
     return YES;
 }
 
