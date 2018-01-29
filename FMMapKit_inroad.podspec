@@ -24,7 +24,7 @@ s.public_header_files = "Classes/FMMapKit.h"
 s.frameworks = 'GLKit', 'CoreGraphics','OpenGLES','Security'
 
 s.libraries = 'z'
-s.vendored_libraries = 'FMMapKit_inroad/Classes/libFMMapKit.a'
+s.vendored_libraries = 'Classes/libFMMapKit.a'
 s.pod_target_xcconfig  =   {'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x','CLANG_CXX_LIBRARY' => 'libstdc++','OTHER_LDFLAGS' => '-ObjC'}
 
 #s.pod_target_xcconfig  =   {'CLANG_CXX_LIBRARY' => 'libstdc++'}
