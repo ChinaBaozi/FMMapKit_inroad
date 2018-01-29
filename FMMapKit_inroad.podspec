@@ -15,7 +15,7 @@ s.author             = { "ChinaBaozi" => "chinabaozi@yeah.net" }
 s.platform     = :ios
 
 s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", :tag => "2.0.42" }
-s.source_files   = "Classes", "YPTreeView/Classes/*.{h,m,mm}"
+s.source_files   = "Classes", "FMMapKit_inroad/Classes/*.{h,m,mm}"
 #s.exclude_files = "Classes/Exclude"
 s.public_header_files = "Classes/FMMapKit.h"
 
