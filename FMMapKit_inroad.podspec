@@ -31,8 +31,6 @@ s.xcconfig  =   {
     'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x',
     'CLANG_CXX_LIBRARY' => 'libstdc++',
     'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'
-    'OTHER_LDFLAGS' => ['-ObjC','-lObjC','-all_load']
-
 }
 
 s.resource     = "Classes/Resources/FMBundle.bundle"
