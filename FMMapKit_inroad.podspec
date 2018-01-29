@@ -17,7 +17,7 @@ s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", 
 s.ios.deployment_target = '8.0'
 s.source_files   = 'Classes/*.{h,m,mm}'
 s.public_header_files = "Classes/*.h"
-s.vendored_libraries = 'Classes/libFMMapKit.a'
+s.vendored_libraries = 'Classes/ThirdParty/libFMMapKit.a'
 s.resource     = "Classes/Resources/FMBundle.bundle"
 s.frameworks = 'GLKit', 'CoreGraphics','OpenGLES','Security'
 s.libraries = 'z'
