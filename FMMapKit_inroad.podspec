@@ -15,14 +15,16 @@ s.author             = { "ChinaBaozi" => "chinabaozi@yeah.net" }
 s.platform     = :ios
 
 s.source       = { :git => "https://github.com/ChinaBaozi/FMMapKit_inroad.git", :tag => "2.0.42" }
-s.source_files   = "Classes", "FMMapKit_inroad/Classes/*.{h,m,mm}"
+#s.source_files   = 'Classes/*.{h,m,mm}'
+
+#s.source_files   = "Classes", "FMMapKit_inroad/Classes/*.{h,m,mm}"
 #s.exclude_files = "Classes/Exclude"
 s.public_header_files = "Classes/FMMapKit.h"
 
 s.frameworks = 'GLKit', 'CoreGraphics','OpenGLES','Security'
 
 s.libraries = 'z'
-s.vendored_libraries = 'Classes/libFMMapKit.a'
+s.vendored_libraries = 'FMMapKit_inroad/Classes/libFMMapKit.a'
 s.pod_target_xcconfig  =   {'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x','CLANG_CXX_LIBRARY' => 'libstdc++','OTHER_LDFLAGS' => '-ObjC'}
 
 #s.pod_target_xcconfig  =   {'CLANG_CXX_LIBRARY' => 'libstdc++'}
